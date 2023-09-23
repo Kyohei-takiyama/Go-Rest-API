@@ -13,7 +13,6 @@ var (
 	muxDispatcher = mux.NewRouter()
 )
 
-const port string = "8000"
 
 func NewMuxRouter() Router {
 	return &muxRouter{}
